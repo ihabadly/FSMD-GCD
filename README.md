@@ -1,5 +1,5 @@
 # FSMD-GCD
-Basic FSMD example to calculate the Greatest Common Divisor of two 8-bit numbers
+Basic Finite State Machine with Datapath (FSMD) example to calculate the Greatest Common Divisor (GCD) of two 8-bit numbers
 
 ## Install
 
