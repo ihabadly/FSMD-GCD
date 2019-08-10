@@ -11,10 +11,10 @@ architecture rtl of comp_neq is
 begin
   process(x,y)
   begin
-    if x= y then
-	    x_neq_y <= '0';
-	  else
-	    x_neq_y <= '1';
-	  end if;
+    if (x = y) then
+      x_neq_y <= '0';
+    else
+      x_neq_y <= '1';
+    end if;
   end process;
 end rtl;
