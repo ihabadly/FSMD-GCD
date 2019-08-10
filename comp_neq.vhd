@@ -4,7 +4,7 @@ use ieee.std_logic_arith.all;
 
 entity comp_neq is
   port(x,y: in std_logic_vector (7 downto 0);
-       x_neq_y : out std_logic);
+       x_neq_y: out std_logic);
 end comp_neq ;
 
 architecture rtl of comp_neq is
